@@ -14,6 +14,28 @@
 		9B12D93427832EFC000D6FC3 /* ReadwellAlphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12D93327832EFC000D6FC3 /* ReadwellAlphaTests.swift */; };
 		9B12D93E27832EFC000D6FC3 /* ReadwellAlphaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12D93D27832EFC000D6FC3 /* ReadwellAlphaUITests.swift */; };
 		9B12D94027832EFC000D6FC3 /* ReadwellAlphaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12D93F27832EFC000D6FC3 /* ReadwellAlphaUITestsLaunchTests.swift */; };
+		9B12D94D27833020000D6FC3 /* BookCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12D94C27833020000D6FC3 /* BookCard.swift */; };
+		9B12D94F278330B6000D6FC3 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12D94E278330B6000D6FC3 /* Book.swift */; };
+		9B12D95727834BC3000D6FC3 /* TopBookCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12D95627834BC3000D6FC3 /* TopBookCard.swift */; };
+		9B12D959278396C0000D6FC3 /* BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12D958278396C0000D6FC3 /* BookDetailView.swift */; };
+		9B12D96927849514000D6FC3 /* R2Navigator in Frameworks */ = {isa = PBXBuildFile; productRef = 9B12D96827849514000D6FC3 /* R2Navigator */; };
+		9B12D96B27849514000D6FC3 /* R2Shared in Frameworks */ = {isa = PBXBuildFile; productRef = 9B12D96A27849514000D6FC3 /* R2Shared */; };
+		9B12D96D27849514000D6FC3 /* R2Streamer in Frameworks */ = {isa = PBXBuildFile; productRef = 9B12D96C27849514000D6FC3 /* R2Streamer */; };
+		9B12D96F27849514000D6FC3 /* ReadiumLCP in Frameworks */ = {isa = PBXBuildFile; productRef = 9B12D96E27849514000D6FC3 /* ReadiumLCP */; };
+		9B12D97127849514000D6FC3 /* ReadiumOPDS in Frameworks */ = {isa = PBXBuildFile; productRef = 9B12D97027849514000D6FC3 /* ReadiumOPDS */; };
+		9B12D9732785B9E0000D6FC3 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B12D9722785B9E0000D6FC3 /* CategoryHome.swift */; };
+		9B5617CB278865F800785006 /* NowPlayingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5617CA278865F800785006 /* NowPlayingBar.swift */; };
+		9B5617CF278866D500785006 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5617CE278866D500785006 /* Blur.swift */; };
+		9BFED9D22785E49000175421 /* cover_letter_guide_2019 (2).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFED9D12785E49000175421 /* cover_letter_guide_2019 (2).pdf */; };
+		9BFED9D927862AAD00175421 /* PDFTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFED9D827862AAD00175421 /* PDFTextView.swift */; };
+		9BFED9FB2786D43B00175421 /* PSPDFKit 9 QuickStart Guide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFED9FA2786D43B00175421 /* PSPDFKit 9 QuickStart Guide.pdf */; };
+		9BFED9FD2786D59200175421 /* PDFKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFED9FC2786D59200175421 /* PDFKitView.swift */; };
+		9BFEDA052786DB2D00175421 /* USSBS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFEDA042786DB2D00175421 /* USSBS.pdf */; };
+		9BFEDA072786E2D400175421 /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFEDA062786E2D400175421 /* Annotation.swift */; };
+		9BFEDA092786E72400175421 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFEDA082786E72400175421 /* Extensions.swift */; };
+		9BFEDA0B2786E7A100175421 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFEDA0A2786E7A100175421 /* AudioPlayerView.swift */; };
+		9BFEDA0D2786E83B00175421 /* sampleaudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9BFEDA0C2786E83A00175421 /* sampleaudio.mp3 */; };
+		9BFEDA0F278726B000175421 /* Chimamanda_Ngozi_Adichie.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFEDA0E278726B000175421 /* Chimamanda_Ngozi_Adichie.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +66,24 @@
 		9B12D93927832EFC000D6FC3 /* ReadwellAlphaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadwellAlphaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B12D93D27832EFC000D6FC3 /* ReadwellAlphaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadwellAlphaUITests.swift; sourceTree = "<group>"; };
 		9B12D93F27832EFC000D6FC3 /* ReadwellAlphaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadwellAlphaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B12D94C27833020000D6FC3 /* BookCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCard.swift; sourceTree = "<group>"; };
+		9B12D94E278330B6000D6FC3 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		9B12D95627834BC3000D6FC3 /* TopBookCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBookCard.swift; sourceTree = "<group>"; };
+		9B12D958278396C0000D6FC3 /* BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailView.swift; sourceTree = "<group>"; };
+		9B12D95E27845B47000D6FC3 /* SDWebImageSwiftUI-master */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SDWebImageSwiftUI-master"; path = "../../../Downloads/SDWebImageSwiftUI-master"; sourceTree = "<group>"; };
+		9B12D9722785B9E0000D6FC3 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		9B5617CA278865F800785006 /* NowPlayingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingBar.swift; sourceTree = "<group>"; };
+		9B5617CE278866D500785006 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
+		9BFED9D12785E49000175421 /* cover_letter_guide_2019 (2).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "cover_letter_guide_2019 (2).pdf"; path = "../../../Downloads/cover_letter_guide_2019 (2).pdf"; sourceTree = "<group>"; };
+		9BFED9D827862AAD00175421 /* PDFTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFTextView.swift; sourceTree = "<group>"; };
+		9BFED9FA2786D43B00175421 /* PSPDFKit 9 QuickStart Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "PSPDFKit 9 QuickStart Guide.pdf"; path = "../../../Downloads/PSPDFKitSwiftUI/PSPDFKitSwiftUI/PSPDFKit 9 QuickStart Guide.pdf"; sourceTree = "<group>"; };
+		9BFED9FC2786D59200175421 /* PDFKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitView.swift; sourceTree = "<group>"; };
+		9BFEDA042786DB2D00175421 /* USSBS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = USSBS.pdf; sourceTree = "<group>"; };
+		9BFEDA062786E2D400175421 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		9BFEDA082786E72400175421 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9BFEDA0A2786E7A100175421 /* AudioPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		9BFEDA0C2786E83A00175421 /* sampleaudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sampleaudio.mp3; sourceTree = "<group>"; };
+		9BFEDA0E278726B000175421 /* Chimamanda_Ngozi_Adichie.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Chimamanda_Ngozi_Adichie.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B12D96F27849514000D6FC3 /* ReadiumLCP in Frameworks */,
+				9B12D96D27849514000D6FC3 /* R2Streamer in Frameworks */,
+				9B12D97127849514000D6FC3 /* ReadiumOPDS in Frameworks */,
+				9B12D96927849514000D6FC3 /* R2Navigator in Frameworks */,
+				9B12D96B27849514000D6FC3 /* R2Shared in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +141,19 @@
 			children = (
 				9B12D92227832EFA000D6FC3 /* ReadwellAlphaApp.swift */,
 				9B12D92427832EFA000D6FC3 /* ContentView.swift */,
+				9B5617C52788656E00785006 /* Book */,
+				9B5617C6278865AA00785006 /* PDF */,
+				9B5617C7278865B300785006 /* Extensions */,
+				9BFEDA0A2786E7A100175421 /* AudioPlayerView.swift */,
+				9B5617CA278865F800785006 /* NowPlayingBar.swift */,
+				9B5617CE278866D500785006 /* Blur.swift */,
+				9B12D9722785B9E0000D6FC3 /* CategoryHome.swift */,
+				9BFEDA0C2786E83A00175421 /* sampleaudio.mp3 */,
+				9BFED9FA2786D43B00175421 /* PSPDFKit 9 QuickStart Guide.pdf */,
+				9BFEDA0E278726B000175421 /* Chimamanda_Ngozi_Adichie.pdf */,
+				9BFEDA042786DB2D00175421 /* USSBS.pdf */,
 				9B12D92627832EFC000D6FC3 /* Assets.xcassets */,
+				9B12D95E27845B47000D6FC3 /* SDWebImageSwiftUI-master */,
 				9B12D92827832EFC000D6FC3 /* Preview Content */,
 			);
 			path = ReadwellAlpha;
@@ -121,10 +178,40 @@
 		9B12D93C27832EFC000D6FC3 /* ReadwellAlphaUITests */ = {
 			isa = PBXGroup;
 			children = (
+				9BFED9D12785E49000175421 /* cover_letter_guide_2019 (2).pdf */,
 				9B12D93D27832EFC000D6FC3 /* ReadwellAlphaUITests.swift */,
 				9B12D93F27832EFC000D6FC3 /* ReadwellAlphaUITestsLaunchTests.swift */,
 			);
 			path = ReadwellAlphaUITests;
+			sourceTree = "<group>";
+		};
+		9B5617C52788656E00785006 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				9B12D94E278330B6000D6FC3 /* Book.swift */,
+				9B12D95627834BC3000D6FC3 /* TopBookCard.swift */,
+				9B12D94C27833020000D6FC3 /* BookCard.swift */,
+				9B12D958278396C0000D6FC3 /* BookDetailView.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		9B5617C6278865AA00785006 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				9BFED9D827862AAD00175421 /* PDFTextView.swift */,
+				9BFED9FC2786D59200175421 /* PDFKitView.swift */,
+				9BFEDA062786E2D400175421 /* Annotation.swift */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		9B5617C7278865B300785006 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9BFEDA082786E72400175421 /* Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +230,13 @@
 			dependencies = (
 			);
 			name = ReadwellAlpha;
+			packageProductDependencies = (
+				9B12D96827849514000D6FC3 /* R2Navigator */,
+				9B12D96A27849514000D6FC3 /* R2Shared */,
+				9B12D96C27849514000D6FC3 /* R2Streamer */,
+				9B12D96E27849514000D6FC3 /* ReadiumLCP */,
+				9B12D97027849514000D6FC3 /* ReadiumOPDS */,
+			);
 			productName = ReadwellAlpha;
 			productReference = 9B12D91F27832EFA000D6FC3 /* ReadwellAlpha.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +309,9 @@
 				Base,
 			);
 			mainGroup = 9B12D91627832EF9000D6FC3;
+			packageReferences = (
+				9B12D96727849514000D6FC3 /* XCRemoteSwiftPackageReference "swift-toolkit" */,
+			);
 			productRefGroup = 9B12D92027832EFA000D6FC3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,7 +328,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFED9D22785E49000175421 /* cover_letter_guide_2019 (2).pdf in Resources */,
 				9B12D92A27832EFC000D6FC3 /* Preview Assets.xcassets in Resources */,
+				9BFEDA0D2786E83B00175421 /* sampleaudio.mp3 in Resources */,
+				9BFED9FB2786D43B00175421 /* PSPDFKit 9 QuickStart Guide.pdf in Resources */,
+				9BFEDA052786DB2D00175421 /* USSBS.pdf in Resources */,
+				9BFEDA0F278726B000175421 /* Chimamanda_Ngozi_Adichie.pdf in Resources */,
 				9B12D92727832EFC000D6FC3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +359,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFED9D927862AAD00175421 /* PDFTextView.swift in Sources */,
+				9B12D94F278330B6000D6FC3 /* Book.swift in Sources */,
+				9B12D94D27833020000D6FC3 /* BookCard.swift in Sources */,
 				9B12D92527832EFA000D6FC3 /* ContentView.swift in Sources */,
+				9B12D9732785B9E0000D6FC3 /* CategoryHome.swift in Sources */,
 				9B12D92327832EFA000D6FC3 /* ReadwellAlphaApp.swift in Sources */,
+				9B5617CB278865F800785006 /* NowPlayingBar.swift in Sources */,
+				9BFEDA072786E2D400175421 /* Annotation.swift in Sources */,
+				9B12D959278396C0000D6FC3 /* BookDetailView.swift in Sources */,
+				9BFED9FD2786D59200175421 /* PDFKitView.swift in Sources */,
+				9BFEDA092786E72400175421 /* Extensions.swift in Sources */,
+				9B5617CF278866D500785006 /* Blur.swift in Sources */,
+				9B12D95727834BC3000D6FC3 /* TopBookCard.swift in Sources */,
+				9BFEDA0B2786E7A100175421 /* AudioPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +699,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9B12D96727849514000D6FC3 /* XCRemoteSwiftPackageReference "swift-toolkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/readium/swift-toolkit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9B12D96827849514000D6FC3 /* R2Navigator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B12D96727849514000D6FC3 /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = R2Navigator;
+		};
+		9B12D96A27849514000D6FC3 /* R2Shared */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B12D96727849514000D6FC3 /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = R2Shared;
+		};
+		9B12D96C27849514000D6FC3 /* R2Streamer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B12D96727849514000D6FC3 /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = R2Streamer;
+		};
+		9B12D96E27849514000D6FC3 /* ReadiumLCP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B12D96727849514000D6FC3 /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = ReadiumLCP;
+		};
+		9B12D97027849514000D6FC3 /* ReadiumOPDS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9B12D96727849514000D6FC3 /* XCRemoteSwiftPackageReference "swift-toolkit" */;
+			productName = ReadiumOPDS;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9B12D91727832EF9000D6FC3 /* Project object */;
 }
