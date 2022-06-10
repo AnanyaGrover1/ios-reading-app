@@ -5,6 +5,8 @@
 //  Created by Ananya Grover on 1/7/22.
 //
 
+// For the audio player bar at the bottom of the PDF reader view
+
 import SwiftUI
 import AVKit
 
@@ -21,6 +23,7 @@ struct NowPlayingBar<Content: View>: View {
                 HStack {
                     
                         HStack {
+                            // book cover art and name
                             Image(book.bookArtString).resizable().frame(width: 45, height: 45).shadow(radius: 6, x: 0, y: 3).padding(.leading)
                             Text(book.name).padding(.leading, 10)
                             Spacer()
@@ -32,6 +35,7 @@ struct NowPlayingBar<Content: View>: View {
 //                        Image(systemName: "play.fill").font(.title3)
 //                    }.buttonStyle(PlainButtonStyle()).padding(.horizontal)
                     
+                    // play button
                     Button(action: {
                         self.audioPlayer.play()
                     }) {
@@ -48,6 +52,7 @@ struct NowPlayingBar<Content: View>: View {
 //                        Image(systemName: "pause.fill").font(.title3)
 //                    }.buttonStyle(PlainButtonStyle()).padding(.trailing, 30)
                     
+                    // pause button
                     Button(action: {
                         self.audioPlayer.pause()
                     }) {
@@ -63,6 +68,8 @@ struct NowPlayingBar<Content: View>: View {
                 }
            
         }
+         
+        // which sound file to play 
         .onAppear {
             let sound = Bundle.main.path(forResource: "sampleaudio", ofType: "mp3")
             self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))

@@ -5,6 +5,8 @@
 //  Created by Ananya Grover on 1/6/22.
 //
 
+// This was another attempt at a way to display a pdf but is currently not fully functional as far as I remember and is not being used. Look at PDFTextView instead.
+
 import SwiftUI
 import PDFKit
 

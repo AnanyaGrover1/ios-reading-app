@@ -17,6 +17,7 @@ struct Book: Identifiable, Codable, Hashable {
     var isFavorite: Bool
     var category: Category
        enum Category: String, CaseIterable, Codable {
+           // sample genres
            case fantasy = "Fantasy"
            case horror = "Horror"
            case fables = "Fables"
