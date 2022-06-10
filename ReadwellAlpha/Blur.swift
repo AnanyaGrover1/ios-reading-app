@@ -5,6 +5,7 @@
 //  Created by Ananya Grover on 1/7/22.
 //
 
+// used for the blur effect for the audio player 
 import SwiftUI
 
 struct Blur: UIViewRepresentable {

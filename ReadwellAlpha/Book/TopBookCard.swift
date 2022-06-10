@@ -5,6 +5,8 @@
 //  Created by Ananya Grover on 1/3/22.
 //
 
+// This is the book card view for the vertical list in the home page
+
 import SwiftUI
 
 struct TopBookCard: View {
@@ -12,11 +14,13 @@ struct TopBookCard: View {
         
         var body: some View {
             HStack {
+                // Book cover
                 Image(book.bookArtString)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width:40, height: 40)
                     .clipShape(Circle())
+                // Vertical stack for the text: Book's title and author name
                 VStack(alignment: .leading) {
                     Text(book.name)
                         .font(.headline)

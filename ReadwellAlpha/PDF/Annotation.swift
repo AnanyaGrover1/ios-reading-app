@@ -1,4 +1,5 @@
-//
+// Not working yet: goal was to add annotation features to pdf text view
+
 //  Annotation.swift
 //  ReadwellAlpha
 //

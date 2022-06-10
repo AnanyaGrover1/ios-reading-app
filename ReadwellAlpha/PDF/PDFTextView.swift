@@ -12,7 +12,7 @@ struct PDFTextView: View {
     var book: Book
 
     var body: some View {
-        
+        // Document path
             let documentURL = Bundle.main.bundleURL.appendingPathComponent("Chimamanda_Ngozi_Adichie.pdf")
         
             
@@ -21,10 +21,12 @@ struct PDFTextView: View {
                     VStack(alignment: .center) {
                         
                         PDFKitView(url: documentURL)
+                        // to occupy the full screen
                             .edgesIgnoringSafeArea(.all)
                     }
 
                 }
+                // for the audiobook player tab at the bottom
                 NowPlayingBar(content: PDFTextView(book: book), book: book)
                 
             }
